@@ -6,7 +6,7 @@ let isInitialLoad = true;
 
 // Unsplash API
 let count = 5;
-const apiKey = "type your API KEY HERE ";
+const apiKey = "Type your private API key here ";
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
 let ready = false;
